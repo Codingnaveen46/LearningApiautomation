@@ -9,5 +9,8 @@ test('this is the testapi from playwright',async({request})=>{
             
         }
     })
+
+    console.log(response.json());
+    
 })
 
